@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/pheonix/Pictures/landscape-illustration.jpg"
+let background = "#181b33"
+let foreground = "#cedce1"
+let cursor     = "#cedce1"
+
+" Colors
+let color0  = "#181b33"
+let color1  = "#C37C83"
+let color2  = "#AA8D90"
+let color3  = "#E0A99C"
+let color4  = "#F3D0B5"
+let color5  = "#92B4CD"
+let color6  = "#9FC0D3"
+let color7  = "#cedce1"
+let color8  = "#909a9d"
+let color9  = "#C37C83"
+let color10 = "#AA8D90"
+let color11 = "#E0A99C"
+let color12 = "#F3D0B5"
+let color13 = "#92B4CD"
+let color14 = "#9FC0D3"
+let color15 = "#cedce1"
