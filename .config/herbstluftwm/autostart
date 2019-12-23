@@ -11,10 +11,9 @@ function run {
 #setxkbmap -layout be
 
 #Autostart applications
-pkill -u $USER '^compton$'
-compton  --config $HOME/.config/herbstluftwm/picom.conf &
+pkill -u $USER '^picom$'
+picom --config $HOME/.config/herbstluftwm/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 xsetroot -solid '#000000'
 xsetroot -cursor_name left_ptr &
@@ -23,7 +22,7 @@ xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 wal -nRa 90 &
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-fill /usr/share/backgrounds/arcolinux/hefftor-landscape.png &
+feh --bg-scale /usr/share/backgrounds/arcolinux/hefftor-landscape.png &
 run conky -c $HOME/.conkyrc &
 #run variety &
 nm-applet &
@@ -31,7 +30,6 @@ nm-applet &
 run dunst &
 xfce4-power-manager &
 numlockx on &
-run insync start &
 #run volumeicon &
 # nitrogen --restore &
 # caffeine &
