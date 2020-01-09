@@ -229,15 +229,15 @@ hc rule focus=on # normally focus new clients
 #hc rule focus=off # normally do not focus new clients
 
 #assign applications to workspaces or tags
-hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome)' tag=1  focus=on
-hc rule class~'(Subl3|code-oss)' tag=2 focus=on
-hc rule class=Gimp-2.10 tag=5
-hc rule class=Inkscape tag=5
-hc rule class=Steam tag=6
-hc rule class=vlc tag=4 focus=on
-hc rule class=qBittorrent tag=7 focus=on
-hc rule class=discord tag=9 focus=on
-hc rule class=TelegramDesktop tag=9 focus=on
+hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome)' tag=1 switchtag=on focus=on
+hc rule class~'(Subl3|code-oss)' tag=2 switchtag=on focus=on
+hc rule class=Gimp-2.10 tag=5 switchtag=on focus=on
+hc rule class=Inkscape tag=5 switchtag=on focus=on
+hc rule class=Steam tag=6 switchtag=on focus=on
+hc rule class=vlc tag=4 focus=on switchtag=on
+hc rule class=qBittorrent tag=7 focus=on switchtag=on
+hc rule class=discord tag=9 focus=on switchtag=on
+hc rule class=TelegramDesktop tag=9 focus=on switchtag=on
 # hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome)' tag=1
 # hc rule class~'(Atom|Subl3)' tag=2
 # hc rule class=Inkscape tag=3
