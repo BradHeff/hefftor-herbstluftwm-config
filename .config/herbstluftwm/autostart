@@ -22,7 +22,7 @@ xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 wal -nRa 90 &
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-scale /usr/share/backgrounds/hefftorlinux/journey_in_middle_earth.png &
+feh --bg-scale /usr/share/backgrounds/hefftorlinux/Hefftor_4k.png &
 run conky -c $HOME/.conkyrc &
 #run variety &
 nm-applet &
