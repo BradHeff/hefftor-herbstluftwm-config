@@ -65,7 +65,17 @@ hc keybind $Mod-q close
 
 #Most of the keybindings have been set in sxhkd config file
 #you can set them also here
-
+# hc load 7 "(split horizontal:0.449800:0 (split vertical:0.800000:0 (split vertical:0.600000:0 (clients vertical:0) (clients vertical:0)) (clients vertical:0)) (split vertical:0.800000:1 (clients vertical:0) (clients vertical:0)))"
+# hc load 5 '
+# (split horizontal:0.450000:1
+#   (split vertical:0.500000:0
+#     (split vertical:0.500000:1
+#     (clients vertical:0 )
+#     (clients vertical:0 ))
+#     (clients horizontal:0 ))
+#   (split vertical:0.550000:0
+#     (clients vertical:0 )
+#     (clients vertical:0 )))'
 #reload sxhkd:
 hc keybind $Mod-Shift-s  pkill -USR1 -x sxhkd
 
@@ -214,11 +224,12 @@ hc set frame_bg_active_color '#6790EB'
 hc set frame_border_width 3
 hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
-hc set frame_gap 10
+hc set frame_gap 4
 hc set frame_padding 0
 hc set mouse_recenter_gap 0
 hc set smart_frame_surroundings 1
 hc set smart_window_surroundings 0
+# hc set tree_style '╾│ ├└╼─┐'
 hc set tree_style '╾│ ├└╼─┐'
 hc set window_gap 10
 
@@ -227,7 +238,8 @@ hc set window_gap 10
 hc unrule -F
 hc rule focus=on # normally focus new clients
 #hc rule focus=off # normally do not focus new clients
-
+hc floating float on
+hc floating 3 on
 #assign applications to workspaces or tags
 hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome)' tag=1 switchtag=on focus=on
 hc rule class~'(Subl3|code-oss)' tag=2 switchtag=on focus=on
@@ -268,6 +280,7 @@ hc unlock
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #xrandr --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --off --output VGA-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+# xrandr --output HDMI-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output DVI-0 --off --output VGA-0 --mode 1920x1080 --pos 0x0 --rotate normal
 
 #Dualmonitor setup
 # hc detect_monitors
