@@ -9,11 +9,11 @@
 
 # Vivaldi
 #super + F1
-#	firefox & herbstclient use_index 0
+#	brave & herbstclient use_index 0
 
 # Vivaldi
 super + F1
-	firefox
+	brave
 
 # code
 super + F2
@@ -70,7 +70,7 @@ super + e
 
 #Browser
 super + w
-    firefox & herbstclient use_index 0
+    brave & herbstclient use_index 0
 
 #conflicts with herbstluftwm
 #Conky-toggle
@@ -192,7 +192,7 @@ ctrl + alt + e
 
 #Firefox
 ctrl + alt + f
-     firefox
+     brave
 
 #Nitrogen
 ctrl + alt + i
@@ -240,7 +240,7 @@ ctrl + alt + b
 
 #Vivaldi
 ctrl + alt + v
-    firefox
+    brave
 
 #Xfce4-appfinder
 ctrl + alt + a

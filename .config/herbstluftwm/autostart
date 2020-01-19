@@ -22,9 +22,10 @@ xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 wal -nRa 90 &
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-scale /usr/share/backgrounds/hefftorlinux/Hefftor_4k.png &
+feh --bg-scale /usr/share/backgrounds/hefftorlinux/Hefftor_4k_Juno.png &
 run conky -c $HOME/.conkyrc &
 #run variety &
+# xinput set-prop 13 302 1 &
 nm-applet &
 # pamac-tray &
 run dunst &
@@ -241,7 +242,7 @@ hc rule focus=on # normally focus new clients
 hc floating float on
 hc floating 3 on
 #assign applications to workspaces or tags
-hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome)' tag=1 switchtag=on focus=on
+hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome|Brave-browser)' tag=1 switchtag=on focus=on
 hc rule class~'(Subl3|code-oss)' tag=2 switchtag=on focus=on
 hc rule class=Gimp-2.10 tag=5 switchtag=on focus=on
 hc rule class=Inkscape tag=5 switchtag=on focus=on
