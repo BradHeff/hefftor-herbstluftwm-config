@@ -37,7 +37,7 @@ super + F6
 
 #Virtualbox
 super + F7
-    virtualbox
+    hefftor-skelapp
 
 #Thunar
 super + F8
