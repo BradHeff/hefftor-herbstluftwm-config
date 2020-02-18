@@ -243,6 +243,8 @@ hc floating float on
 hc floating 3 on
 #assign applications to workspaces or tags
 hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome|Brave-browser)' tag=1 switchtag=on focus=on
+hc rule class~Arcolinux-welcome-app.py tag=3 switchtag=on focus=on
+hc rule class~Hefftor_polybar_switcher.py tag=3 switchtag=on focus=on
 hc rule class~'(Subl3|code-oss)' tag=2 switchtag=on focus=on
 hc rule class=Gimp-2.10 tag=5 switchtag=on focus=on
 hc rule class=Inkscape tag=5 switchtag=on focus=on
