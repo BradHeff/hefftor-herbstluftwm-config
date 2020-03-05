@@ -22,12 +22,14 @@ xsetroot -cursor_name left_ptr &
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 wal -nRa 90 &
 #feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-scale /usr/share/backgrounds/hefftorlinux/Hefftor_4k_Juno.png &
+feh --bg-scale /usr/share/backgrounds/hefftorlinux/sundown_landscape.png &
 run conky -c $HOME/.conkyrc &
 #run variety &
 # xinput set-prop 13 302 1 &
 nm-applet &
 # pamac-tray &
+run mpd &
+run glava &
 run dunst &
 xfce4-power-manager &
 numlockx on &
