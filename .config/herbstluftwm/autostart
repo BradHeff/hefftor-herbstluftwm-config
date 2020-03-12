@@ -304,4 +304,4 @@ hc pad 1 40
 
 #launching polybar
 ~/.config/polybar/launch.sh
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+dex $HOME/.config/autostart/hefftor-welcome-app.desktop
