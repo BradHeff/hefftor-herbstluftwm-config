@@ -1,18 +1,18 @@
 [global]
-  corner_radius = 4
+  corner_radius = 2
   follow = mouse
-  font = "Bitstream Vera Sans:style=Roman 12"
-  format = "%s\n%b"
+  font = "Bitstream Vera Sans:style=Roman 8"
+  format = "<b>%s</b>\n%b"
   frame_color = "#cccccc"
-  frame_width = 1
-  geometry = "300x5-30+40"
+  frame_width = 2
+  geometry = "200x5-30+40"
   history = ctrl+grave
   history_length = 10
   horizontal_padding = 8
   icon_position = left
-  max_icon_size = 28
+  max_icon_size = 20
   #shrink = yes
-  icon_path = /usr/share/icons/gnome/48x48/status/:/usr/share/icons/gnome/48x48/devices/
+  #icon_path = /usr/share/icons/gnome/48x48/status/:/usr/share/icons/gnome/48x48/devices/
   idle_threshold = 120
   ignore_newline = no
   indicate_hidden = yes
@@ -43,8 +43,9 @@
   timeout = 20
 
 [urgency_critical]
-  background = "#9b3648"
+  background = "#181818"
   foreground = "#FFFFFF"
+  frame_color = "#9b3648"
   icon = /usr/share/icons/gnome/48x48/status/stock_dialog-warning.png
   timeout = 0
 
