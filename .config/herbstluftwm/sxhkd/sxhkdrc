@@ -82,13 +82,13 @@ super + w
 #super + h
 #    urxvt 'htop task manager' -e htop
 
-#Oblogout
+#hefflogout
 super + x
-    oblogout
+    hefflogout
 
-#Oblogout
+#hefflogout
 super + Pause
-    oblogout
+    hefflogout
 
 #Pavucontrol
 super + v
@@ -198,9 +198,9 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#Oblogout
+#hefflogout
 ctrl + alt + Delete
-   oblogout
+   hefflogout
 
 #Pamac-manager
 ctrl + alt + p
