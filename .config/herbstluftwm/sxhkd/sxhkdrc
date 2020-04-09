@@ -39,9 +39,9 @@ super + F6
 super + F7
     hefftor-skelapp
 
-#Thunar
+#pcmanfm
 super + F8
-    thunar
+    pcmanfm
 
 #Evolution
 super + F9
@@ -111,9 +111,9 @@ super + Return
     urxvt
 
 #conflicts with herbstluftwm
-#Thunar
+#pcmanfm
 #super + f
-#    thunar
+#    pcmanfm
 
 #Urxvt
 super + t
@@ -134,7 +134,7 @@ super + Escape
 
 #File-Manager
 super + shift + Return
-	thunar
+	pcmanfm
 
 super + shift + w
     ~/.local/bin/dmenu.sh
@@ -155,7 +155,7 @@ super + shift + s
 
 #Keyboard dependent
 #super + shift + KP_Enter
-#	thunar
+#	pcmanfm
 
 
 #########################
@@ -234,9 +234,9 @@ ctrl + alt + Return
 ctrl + alt + t
     urxvt
 
-#Thunar
+#pcmanfm
 ctrl + alt + b
-     thunar
+     pcmanfm
 
 #Vivaldi
 ctrl + alt + v
