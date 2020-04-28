@@ -248,10 +248,21 @@ hc floating 3 on
 hc rule class~'(firefox|Vivaldi-stable|Vivaldi-snapshot|Chromium|Google-chrome|Brave-browser)' tag=1 switchtag=on focus=on
 
 hc rule class~Hefftor-welcome-app.py tag=3 switchtag=on focus=on
+hc rule class~Hefftor_welcome_app tag=3 switchtag=on focus=on
+
 hc rule class~Hefftor_polybar_switcher.py tag=3 switchtag=on focus=on
+
 hc rule class~Hefftor_SkelApp.py tag=3 switchtag=on focus=on
+
 hc rule class~Hefftor-betterlockscreen-gui.py tag=3 switchtag=on focus=on
+hc rule class~Hefftor_betterlockscreen_gui tag=3 switchtag=on focus=on
+
 hc rule class~Hefftor-twm-wallpaper-changer.py tag=3 switchtag=on focus=on
+
+hc rule class~Hefftor_skel_gui tag=3 switchtag=on focus=on
+
+hc rule class~Hefftor_slick_greeter_gui tag=3 switchtag=on focus=on
+
 
 hc rule class~'(Subl3|code-oss)' tag=2 switchtag=on focus=on
 hc rule class=Gimp-2.10 tag=5 switchtag=on focus=on
